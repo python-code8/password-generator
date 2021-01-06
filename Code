@@ -1,0 +1,10 @@
+import random, string
+
+password length = int(input( "Length of the password")) 
+password_characters = string.ascii_letters + string.digits + string.punctuation
+
+password = []
+
+for x in range(password_length): 
+    password.append(random.choice (password_characters))
+print (" ".join(password))
